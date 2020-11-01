@@ -7,6 +7,44 @@ Second Color: #ec1c23
     --first-color: #00496c;
     --second-color: #d23f49;
 }
+*{
+    transition: all 0.5s ease-in-out;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+a{
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+/* General Styles and Backgrounds */
+.red-bg{
+    background-color: #d23f49!important;
+}
+
+.blue-bg{
+    background-color: #00496c!important;
+}
+
+.bg-fff{
+    background-color: #fff;
+}
+
+.bg-f6f6f6{
+    background-color: #f6f6f6;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
+}
 
 /*Start Header*/
 #sidebar-icon i{
@@ -24,6 +62,7 @@ Second Color: #ec1c23
     font-size: 14px;
     font-weight: bold;
 }
+
 .setting-navbar li a{
     color:white;
     text-decoration: none;
@@ -35,8 +74,7 @@ Second Color: #ec1c23
     border-color: transparent #00496c transparent transparent;
     border-style: solid;
     position: absolute;
-    top: -21px;
-    margin-left: -85px;
+    margin-left: -39px;
 }
 
 .setting-navbar .dropdown .btn.btn-secondary.dropdown-toggle{
@@ -69,4 +107,183 @@ Second Color: #ec1c23
 .setting-navbar .dropdown-menu.languages-menu a img{
     height: 11px;
 }
+
+/* Search Bar */
+.search-bar input {
+    background-color: #f1f5fc;
+    border: 2px solid var(--second-color);
+    border-radius: 5px;
+}
+
+.search-bar .btn , .search-bar span, .search-bar .btn:focus{
+    border:none;
+    color: #fff;
+    padding: 7px 12px;
+    box-shadow: none;
+}
+.search-bar .btn:hover{
+    color: #fff;
+}
+/* End Search bar */
+
+
+/* Start NavBar */
+
+.nav-container {
+    display: flex; 
+    justify-content:space-around;
+    margin-top: -7px!important;
+}
+
+.fa-bars{
+    font-size: 30px!important;
+    border:none!important;
+    color: var(--first-color);
+}
+
+nav  li a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+nav li.active{
+    border-bottom: 5px solid;
+    border-color: var(--second-color);
+}
+
+nav li:hover{
+    color: var(--second-color);
+    border-bottom: 5px solid;
+    border-color: var(--second-color);
+}
+
+nav li:hover > a{
+    color: var(--second-color);
+}
+
+.navbar-dropdown-list .dropdown-menu{
+    margin-top: 5px;
+    background-color: rgba(255,255,255,.7);
+}
+
+.navbar-dropdown-list .dropdown-menu a{
+    margin-left: 20px;
+    border-left: 3px solid var(--second-color);
+    margin-bottom: 10px;
+}
+
+.navbar-dropdown-list .dropdown-menu a:hover{
+   background-color: transparent;
+   color: var(--second-color);
+}
+
+.dropdown-toggle::after{
+    vertical-align: 0.10em;
+}
+
+/* End NavBar */
+
 /*End Header*/
+
+/* Start Lower Search */
+.lower-search-header{
+    font-size: 20px;
+    color: #666 ;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding:10px;
+}
+
+.lower-search-amongst{
+    font-size: 16px;  
+    color: #666 ;
+    font-family: Arial, sans-serif;
+}
+
+.lower-search{
+    background-color: #f1f5fc;
+    border: 2px solid var(--second-color);
+    border-radius: 5px;
+    width:100%;
+    border-right-width: 2px;
+    margin: 10px;
+}
+
+.lower-search input{
+    margin-left: 1px;
+}
+
+.lower-search span{
+    border: none;
+    border-radius: 0;
+    justify-content: center;
+}
+.lower-search .input-group-text i{
+    color:#fff;
+}
+/* End Lower Search */
+
+/* Start Sectors filters */
+.accordion .card{
+    border: none;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.sector-collapse{
+    border: none;
+}
+
+.sector-collapse button{
+    border-left: 5px solid var(--second-color);
+    border-radius: 0px;
+    text-decoration: none;
+    color: #666;
+}
+
+.sector-collapse button:hover{
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.collapse .card-body a{
+    color: #666;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.collapse .card-body a:hover{
+    margin-left: 15px;
+    color: var(--second-color);
+}
+/* End Sectors filters */
+
+/* Start New Produdcts section */
+.main-title {
+    margin: 30px 0 40px;
+    padding: 0 20px;
+    font-family: HurmeGeometricSans_No4_5_SemiBold,sans-serif;
+    font-size: 1.16em;
+    text-transform: none;
+    color: #555659;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.main-title span {
+    padding: 0 20px;
+    background-color: #f6f6f6;
+    position: relative;
+    bottom: -10px;
+    font-size: 14px;
+}
+
+.new-icon{
+    width: 25%;
+    position: absolute;
+}
+
+.new-product p{
+    font-size: 14px;
+}
+/* End New Produdcts section */
