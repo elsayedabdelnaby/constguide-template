@@ -69,17 +69,19 @@
             <div class="col-md-6">
                 <div class="input-group mb-3 search-bar">
                     <input type="text" class="form-control col-8 pr-0" placeholder="Search amongst 265 Products"
-                        aria-label="" aria-describedby="basic-addon2">
+                        aria-label="" aria-describedby="basic-addon2" name="search-value">
+                    <input type="hidden" name="search-module" value="Products">
                     <div class="input-group-append col-4 p-0">
                         <div class="dropdown">
-                            <button class="btn dropdown-toggle rounded-0 red-bg" type="button" id="dropdownMenuButton"
+                            <button class="btn dropdown-toggle rounded-0 red-bg" type="button" id="globalSearchMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Products
                             </button>
-                            <div class="dropdown-menu dropdown-global-search languages-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Search amongst 10 Companies</a>
-                                <a class="dropdown-item" href="#">Search amongst 20 Events</a>
-                                <a class="dropdown-item" href="#">Search amongst 30 Projects</a>
+                            <div class="dropdown-menu dropdown-global-search" aria-labelledby="globalSearchMenuButton">
+                                <a class="dropdown-item" href="#" data-target="Products">Search amongst 10 Products</a>
+                                <a class="dropdown-item" href="#" data-target="Companies">Search amongst 10 Companies</a>
+                                <a class="dropdown-item" href="#" data-target="Events">Search amongst 20 Events</a>
+                                <a class="dropdown-item" href="#" data-target="Projects">Search amongst 30 Projects</a>
                             </div>
                         </div>
                         <span class="input-group-text red-bg"><i class="fa fa-search"></i></span>
@@ -345,7 +347,7 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
