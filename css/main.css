@@ -289,35 +289,36 @@ nav li:hover > a{
 }
 
 .new-icon{
-    width: 25%!important;
+    width: 22%!important;
     position: absolute;
     top: 0;
+    left: 0;
     border-radius: 3px 0px;
 }
 
-.new-product{
+.new-product-card{
     float: left;
     margin-bottom: 20px;
     width: 15rem;
 }
 
-.new-product a{
+.new-product-card a{
     font-size: 13px;
     padding-top: 5px;
     font-weight: bold;
 }
 
-.new-product .company-name{
+.new-product-card .company-name{
     font-size: 14px;
     padding-top: 5px;
 }
 
-.new-product pre{
+.new-product-card pre{
     font-size:12px;
     padding-top: 5px;
 }
 
-.new-product .company-logo{
+.new-product-card .company-logo{
     display: block;
     margin: auto;
     width: unset!important;
@@ -331,7 +332,74 @@ width: 100%!important;
     display: inline!important;
 }
 
-.btn-product{
+.btn-all{
     background-color: var(--second-color);
 }
 /* End New Produdcts section */
+
+/* Start Upcoming Events Section */
+.upcoming-event p{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0!important;
+    line-height: 14px;
+    color: var(--first-color);
+}
+
+.upcoming-event:hover{
+    color: var(--second-color);
+}
+
+.upcoming-event div strong{
+    margin-left: 5px;
+    font-size: 10px;
+    line-height: 0;
+    display: inline-block;
+}
+
+.small-txt{
+    font-size: 10px;
+}
+
+.events-card{
+    float: left;
+    width: 18rem;
+}
+/* End upcoming events section  */
+
+/* Start Trending Project Section */
+.project-card{
+    float: left;
+    width: 31%;
+    margin: 1%
+}
+.project-card img {
+    border-radius: 0 0 3px 3px;
+}
+.project-card a:hover p {
+    color: var(--second-color);
+}
+.project-card p{
+    font-weight: bold;
+    color: var(--first-color);
+}
+/* End Trending Projects Section */
+
+/* Start Tenders Section */
+.new-Tenders-card span{
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+.new-Tenders-card div a span{
+    text-align: center;
+}
+
+.btn-more{
+    background-color: var(--first-color);
+    border:none;
+}
+
+/* End Tenders Section */

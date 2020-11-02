@@ -3,31 +3,43 @@
     header{width:revert;}
     .setting-navbar button{font-size: 13px;}
     .setting-navbar li a{font-size: 13px;}
-    .btn-product { width: 50%;}
+    .btn-all { width: 50%;margin-top: 10px;}
+    .events-card{width: 100%;margin: 2%;}
+    .project-card{width: 100%;margin: 2%;}
  }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .fa-bars{ margin-left: 0px;}
     .search-bar{margin-top: -10px;}
-    .btn-product { width: 30%;}
+    .btn-all { width: 30%; margin-top: 10px;}
+    .events-card{width: 100%;margin: 2% 0%;}
+    .project-card{width: 100%;margin: 2% 0%;}
  }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
     .search-bar{margin-top: 0px;}
     .fa-bars{ margin-left: 0px;}
-    .btn-product { width: 30%;}
+    .btn-all { width: 30%; margin-top: 10px;}
+    .events-card{width: 46%; margin: 1%;}
+    .project-card{width: 31%;margin: 1%;}
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .search-bar{margin-top: 0px;}
     .fa-bars{ margin-left: -90px;}
+    .btn-all {margin-top: 20px;}
+    .events-card{width: 23%; margin: 1%;}
+    .prpoject-card{width: 31%; margin: 1%;}
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .search-bar{margin-top: -20px;}
     .fa-bars{ margin-left: -90px;}
+    .btn-all {margin-top: 15px;}
+    .events-card{width: 23%; margin: 1%;}
+    .project-card{width: 31%; margin: 1%;}
  }

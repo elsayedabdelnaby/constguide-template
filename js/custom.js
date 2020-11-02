@@ -16,6 +16,7 @@ var owl = $('.owl-carousel');
 owl.owlCarousel({
   loop: true,
   margin: 10,
+  center: true,
   autoplay: true,
   autoplayTimeout: 2000,
   autoplayHoverPause: true,
