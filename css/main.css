@@ -13,6 +13,7 @@ Second Color: #ec1c23
 
 body{
     overflow-x: hidden;
+    background-color: #f6f6f6;
 }
 
 a{
@@ -36,10 +37,6 @@ a:hover{
 
 .bg-fff{
     background-color: #fff;
-}
-
-.bg-f6f6f6{
-    background-color: #f6f6f6;
 }
 
 .btn.focus, .btn:focus {
@@ -274,7 +271,7 @@ nav li:hover > a{
 
 /* Start New Produdcts section */
 .main-title {
-    margin: 30px 0 40px;
+    margin: 30px 0 20px;
     padding: 0 20px;
     font-family: HurmeGeometricSans_No4_5_SemiBold,sans-serif;
     font-size: 1.16em;
@@ -292,11 +289,44 @@ nav li:hover > a{
 }
 
 .new-icon{
-    width: 25%;
+    width: 25%!important;
     position: absolute;
+    top: 0;
+    border-radius: 3px 0px;
 }
 
-.new-product p{
+.new-product{
+    float: left;
+    margin-bottom: 20px;
+}
+
+.new-product a{
+    font-size: 13px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.new-product .company-name{
     font-size: 14px;
+    padding-top: 5px;
+}
+
+.new-product pre{
+    font-size:12px;
+    padding-top: 5px;
+}
+
+.new-product .company-logo{
+    display: block;
+    margin: auto;
+    width: unset!important;
+}
+.product-image{
+width: 100%!important;
+}
+
+.flag{
+    width: unset!important;
+    display: inline!important;
 }
 /* End New Produdcts section */
