@@ -26,6 +26,10 @@ a:hover{
     text-decoration: none;
 }
 
+ul{
+    list-style-type: none;
+}
+
 /* General Styles and Backgrounds */
 .red-bg{
     background-color: #d23f49!important;
@@ -403,3 +407,59 @@ width: 100%!important;
 }
 
 /* End Tenders Section */
+
+/* Start Sponser section  */
+.sponser{
+    height: 80px;
+    width: unset!important;
+}
+
+/* Start Footer */
+.footer-title span{
+    padding: 0 20px;
+    text-align: center;
+    font-family: HurmeGeometricSans_No4_5_SemiBold,sans-serif;
+    font-size: 16px;
+    text-transform: none;
+    color: #555659;
+    position: absolute;
+    left: 40%;
+    top: 15px;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.footer-title hr{
+    margin: 25px;
+}
+
+.contact-us{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20% ;
+}
+
+.footer-list li {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.footer-top .social{
+    margin-top:0 ;
+}
+
+.footer-top .social a {
+    margin: 0 8px;
+    text-align: center;
+    line-height: 2.1em;
+    color: #796b6b;
+    font-size: 25px;
+}
+
+.right-reserved{
+    color: #666;
+    display: block;
+    font-size: 14px;
+}
+/* End Footer */

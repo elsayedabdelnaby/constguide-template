@@ -20,7 +20,6 @@ owl.owlCarousel({
   autoplay: true,
   autoplayTimeout: 2000,
   autoplayHoverPause: true,
-  autoWidth:true,
   responsiveClass: true,
   responsive: {
     0: {
@@ -38,6 +37,40 @@ owl.owlCarousel({
     1200: {
       items: 5,
       margin:20,
+    },
+  }
+});
+
+// Sponser Owl
+
+$(document).ready(function () {
+  $(".owl-carousel-sponser").owlCarousel();
+});
+
+var owl = $('.owl-carousel-sponser');
+owl.owlCarousel({
+  loop: true,
+  margin: 10,
+  center: true,
+  autoplay: true,
+  autoplayTimeout: 2000,
+  autoplayHoverPause: true,
+  responsiveClass: true,
+  responsive: {
+    0: {
+      items: 2,
+    },
+    480: {
+      items: 4,
+    },
+    768: {
+      items: 6,
+    },
+    992: {
+      items: 8,
+    },
+    1200: {
+      items: 10,
     },
   }
 });
