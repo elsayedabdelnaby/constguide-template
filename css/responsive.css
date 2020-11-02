@@ -3,18 +3,21 @@
     header{width:revert;}
     .setting-navbar button{font-size: 13px;}
     .setting-navbar li a{font-size: 13px;}
+    .btn-product { width: 50%;}
  }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .fa-bars{ margin-left: 0px;}
     .search-bar{margin-top: -10px;}
+    .btn-product { width: 30%;}
  }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
     .search-bar{margin-top: 0px;}
     .fa-bars{ margin-left: 0px;}
+    .btn-product { width: 30%;}
  }
 
 /* Large devices (desktops, 992px and up) */

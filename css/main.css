@@ -271,7 +271,7 @@ nav li:hover > a{
 
 /* Start New Produdcts section */
 .main-title {
-    margin: 30px 0 20px;
+    margin-bottom: 30px;
     padding: 0 20px;
     font-family: HurmeGeometricSans_No4_5_SemiBold,sans-serif;
     font-size: 1.16em;
@@ -298,6 +298,7 @@ nav li:hover > a{
 .new-product{
     float: left;
     margin-bottom: 20px;
+    width: 15rem;
 }
 
 .new-product a{
