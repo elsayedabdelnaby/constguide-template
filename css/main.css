@@ -329,4 +329,8 @@ width: 100%!important;
     width: unset!important;
     display: inline!important;
 }
+
+.btn-product{
+    background-color: var(--second-color);
+}
 /* End New Produdcts section */
