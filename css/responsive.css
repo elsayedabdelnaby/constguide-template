@@ -1,11 +1,14 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+    body{overflow-x: hidden;}
     header{width:revert;}
     .setting-navbar button{font-size: 13px;}
     .setting-navbar li a{font-size: 13px;}
     .btn-all { width: 50%;margin-top: 10px;}
     .events-card{width: 100%;margin: 2%;}
     .project-card{width: 100%;margin: 2%;}
+    .footer-logo-45{width: 45%!important;}
+    .footer-logo-90{width: 90%!important;}
  }
 
 /* Small devices (landscape phones, 576px and up) */
